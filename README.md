@@ -1,4 +1,4 @@
-﻿# Fluid Truncate
+﻿# Truncate
 
 A lightweight (~1kb) vanilla JavaScript library for truncating strings.
 
