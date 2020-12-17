@@ -1,6 +1,6 @@
 # Truncate
 
-A lightweight (~1kb) vanilla JavaScript library for producing typewriter effects.
+A lightweight (~1kb) vanilla JavaScript library for truncating strings.
 
 ## Usage
 
@@ -10,22 +10,22 @@ A lightweight (~1kb) vanilla JavaScript library for producing typewriter effects
 
 You can either configure the library by setting data attributes on the element you want to target or by passing in parameters when you instantiate the library.
 
+`data-truncate-length` 
+
 See the configuration section for more details.
 
 #### JavaScript
 
-Simply instantiate a new instance of the Truncate object:
+Simply instantiate a new instance of the `Truncate` object:
 
-`const typewriter = new TypeWriter({selector: ".element"});`
+`const truncate = new Truncate('.element');`
 
-You can also pass in configuration options via data attributes below.
+You can also pass in configuration options in this order - `selector`, `length`.
 
-### Configuration 
+`const truncate = new Truncate('.element', 10);`
+
+### Configuration
 
 #### Options
 
-- String length (the amount of characters in the truncated string) - `data-truncate-length` 
-
-- Words to type - `data-typewriter-words` 
-- Delay between each simulated keystroke - `data-typewriter-delay`
-- Loop the effect - `data-typewriter-loop`
+String length (the amount of characters in the truncated string) - `data-truncate-length`
