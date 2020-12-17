@@ -12,7 +12,7 @@ You can either configure the library by setting data attributes on the element y
 
 `data-truncate-length` 
 
-See the configuration section for more details.
+See the configuration section below for more details.
 
 #### JavaScript
 
