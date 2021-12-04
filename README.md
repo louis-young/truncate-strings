@@ -31,3 +31,4 @@ You can also pass in configuration options in this order - `selector`, `length`.
 #### Options
 
 String length (the amount of characters in the truncated string) - `data-truncate-length`
+
