@@ -1,4 +1,6 @@
-# Truncate
+⚠️ Please note that this is an old project and does not reflect the quality of my current work.
+
+# Truncate Strings
 
 A lightweight (~1kb) vanilla JavaScript library for truncating strings.
 
